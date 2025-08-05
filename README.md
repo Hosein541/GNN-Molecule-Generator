@@ -58,11 +58,19 @@ To run this project, you will need the following libraries:
 - `matplotlib`
 - `py3Dmol` (for 3D visualization)
 
-### Running the Project
-1.  **Process Data:** First, run the script to download data from ChEMBL and convert it into a graph format.
-2.  **Train the Model:** Run the training script. The script supports **checkpointing**, allowing you to resume training in multiple sessions.
-3.  **Generate Molecules:** After training, use the generation script to create new molecules with the saved model.
+## 🚀 How to Run
 
+1.  **Clone the repository:**
+    ```bash
+    git clone https://github.com/Hosein541/GNN-Molecule-Generator
+    cd GNN-Molecule-Generator
+    ```
+2.  **Open the notebook:**
+    * The main file is `Drug_Creation_with_GNN.ipynb`. It is recommended to run it in a GPU-enabled environment like Google Colab.
+3.  **Run all cells:**
+    * Execute the cells sequentially. The notebook will handle all library installations, data downloads, model training, and result generation.
+
+---
 ***
 
 ## 🔮 Future Work
@@ -72,3 +80,10 @@ This project provides a solid foundation for future research. The next steps cou
 * **Large-Scale Training:** Training the model on the full ChEMBL dataset to learn more diverse chemical patterns.
 * **Extended Training:** Continuing the training of the current model for more epochs to achieve full convergence and improve the quality of generated molecules.
 * **Reinforcement Learning (RL):** Implementing an RL loop for **goal-directed optimization**. A reward function can be defined based on specific criteria (e.g., docking score against a target protein, QED, or SA Score) to fine-tune the model to generate molecules with desired properties.
+
+  
+## Contact
+* **Author:** Hosein Mohammadi
+* **Date:** July 2024
+* **Contact:** [huseinmohammadi83@gmail.com](mailto:huseinmohammadi83@gmail.com)
+* **LinkedIn:** [Hosein Mohammadi](https://www.linkedin.com/in/hosein-mohammadi-979b8a2b2/) 
